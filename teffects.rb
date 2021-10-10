@@ -1,8 +1,8 @@
 class Teffects < Formula
     desc "Teffects is a command-line text effects library."
-    url "https://github.com/shinokada/teffects/archive/refs/tags/v0.0.11.tar.gz"
-    sha256 "b4c8f758e6d4332f05a8a538127af71be8a19558d48b17dd78a3c99eb5a96516"
-    license "MIT"
+    url "https://github.com/shinokada/teffects/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "ac22a80e6c4b722f727618eb40e6b4807610c8df0e9ce246e1fa7051f68cec56"
+  license "MIT"
 
     def install
         bin.install "teffects"
