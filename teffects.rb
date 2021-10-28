@@ -10,6 +10,7 @@ class Teffects < Formula
         bin.install Dir["docs"]
         bin.install Dir["images"]
         bin.install Dir["lib"]
+        bin.install Dir["src"]
         prefix.install "LICENSE"
         prefix.install "README.md"
     end
